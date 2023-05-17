@@ -10,7 +10,7 @@ const char* password = "12345678";   //AP password (customize to your preference
 int x = 0;                           //variable for switching between AP and STA 
 String input1Value = "";             //box input1 string
 String input2Value = "";             //box input2 string
-#define EEPROM_SIZE 32               //EEPROM siz in bytes
+#define EEPROM_SIZE 32               //EEPROM size in bytes
 WiFiServer server(80);               //defined port
 
 void setup() {
